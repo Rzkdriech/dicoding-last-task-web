@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
+/* navbar  */
+
 * {
   margin: 0;
   padding: 0;
@@ -54,4 +56,54 @@ header .navlist li a {
 
 header .navlist li a:hover {
   color: #1679ab;
+}
+
+/* content */
+
+main {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.content {
+  flex: 1;
+}
+
+article {
+  padding: 6px;
+  margin-top: 150px;
+  margin-right: 50px;
+}
+
+article p {
+  margin-top: 10px;
+}
+
+article .box {
+  margin-top: 10px;
+}
+
+article .box a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px 16px;
+  background-color: #1679ab;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+article .box a:hover {
+  background-color: #102c57;
+}
+
+aside .side-content {
+  margin-top: 100px;
+  width: 450px;
+  background-color: #ccd3ca;
+  padding: 20px;
+  border-radius: 20px;
 }
